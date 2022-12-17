@@ -41,8 +41,6 @@
  
 VOLO 提供 D1 到 D5 不同複雜程度的模型，詳細差別可以查看下表
 
-<img src="./figure/volo.png">
-
 ![This is an image](https://miro.medium.com/max/4800/1*ZBqHS6G_PdOTOyZJsw6e_w.webp)
   
   
