@@ -42,6 +42,14 @@
 VOLO 提供 D1 到 D5 不同複雜程度的模型，詳細差別可以查看下表
 
 ![This is an image](https://miro.medium.com/max/4800/1*ZBqHS6G_PdOTOyZJsw6e_w.webp)
+
+
+**資料處理**
+-
+這次的農地作物現況調查影像辨識競賽總共有32種的植物外加1種其他，總共有33種的分類，我們在觀察拿到的資料集時發現到，雖然主辦方有細心的建議照片的拍攝方式，目標物要以中心十字記號為中心去拍攝，但資料集仍然有許多不符合規範的照片，因此我們有先對資料集做預處理的動作，我們將目標作物不在中心十字的圖片重新去做切割，還有將一些看不到目標物的圖片去做刪除避免影響到訓練時的成果。
+
+資料增強方面我們依照坐標切割為224*224的大小，並進行了90度旋轉和水平翻轉，最後得到了比原來多四倍的資料量。
+
   
   
   
@@ -87,4 +95,23 @@ Epoch :16 /Best train loss :0.827774 / ACC :88.1086
 **Rerfence**
 -
 **Paper - [DeiT III: Revenge of the ViT](https://arxiv.org/abs/2204.07118)**
+
+**Paper - [VOLO: Vision Outlooker for Visual Recognition](https://arxiv.org/abs/2106.13112)**
+
+**Paper - [A ConvNet for the 2020s](https://arxiv.org/abs/2201.03545)**
+
+**Paper - [Swin Transformer: Hierarchical Vision Transformer using Shifted Windows](https://arxiv.org/abs/2103.14030)**
+
+**Paper - [Swin Transformer V2: Scaling Up Capacity and Resolution](https://arxiv.org/abs/2111.09883)**
+
+
+
+
+
+
+
+
+
+
+
 
