@@ -1,4 +1,4 @@
-**:hear_no_evil:AICUP2022_農地作物現況調查影像辨識競賽:hear_no_evil:**
+**:bug:AICUP2022_農地作物現況調查影像辨識競賽:bug:**
 =
 [農地作物現況調查影像辨識競賽](https://aidea-web.tw/topic/5f632f38-7213-4d4d-bea3-117ff13c1afb)
 -
