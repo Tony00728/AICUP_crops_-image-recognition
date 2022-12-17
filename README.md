@@ -54,7 +54,7 @@ VOLO 提供 D1 到 D5 不同複雜程度的模型，詳細差別可以查看下�
   
   
   
-**Training**
+**Training、Testing**
 -
 Model 1: deit III、
 完整訓練一次時間: 大約1星期、
