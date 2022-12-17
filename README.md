@@ -46,6 +46,42 @@ VOLO 提供 D1 到 D5 不同複雜程度的模型，詳細差別可以查看下�
   
   
   
+**Training**
+-
+Model 1: deit III、
+完整訓練一次時間: 大約1星期、
+資料集分配 :訓練8/驗證1/測試1
+(為訓練資料增強前)、
+Epoch :29 /Beat train loss :0.761636 / ACC :88.85263
+
+Model 2: convNext、
+完整訓練一次時間: 大約1星期、
+資料集分配 :訓練8/驗證1/測試1 
+(為訓練資料增強前)、
+Epoch :22 /Beat train loss :0.776664 / ACC :86.90771
+
+Model 3: volo_d4、
+完整訓練一次時間: 大約1星期、
+資料集分配 :訓練8/驗證1/測試1 
+(為訓練資料增強前)、
+Epoch :50 / Best train loss :0.778593 / ACC :89.16591
+
+Model 4: volo_d5、
+完整訓練一次時間: 大約1星期、
+資料集分配 :訓練8/驗證1/測試1
+(為訓練資料增強前)、
+Epoch :7 /Beat train loss :0.982349 / ACC :87.41679
+
+
+Model 5: Swin Transforme、
+完整訓練一次時間: 大約1星期、
+資料集分配 :訓練8/驗證1/測試1
+(為訓練資料增強前)、
+Epoch :16 /Best train loss :0.827774 / ACC :88.1086
+
+
+
+  
   
    
 **Rerfence**
