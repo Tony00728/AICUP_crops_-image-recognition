@@ -31,8 +31,27 @@
   setuptools 62.1.0 / Shapely 1.8.1.post1 / six 1.16.0 / tensorboard 2.2.2 / torch 1.5.0 /
   tensorboard-plugin-wit 1.8.1 / threadpoolctl 3.1.0 / tifffile 2021.11.2 / torchvision 0.6.0 typing_extensions 4.2.0 / 
   urllib3 1.26.9 / Werkzeug 2.1.1 / zipp 3.8.0/
+ ```
 
 
+**Models**
+-
+在資料夾models，DeiT III 、volo_d4、volo_d5、convNext:、Swin Transforme
+都有用使用，並且取其中最為有效的。
+ 
+VOLO 提供 D1 到 D5 不同複雜程度的模型，詳細差別可以查看下表
 
+<img src="./figure/volo.png">
 
+![This is an image](https://miro.medium.com/max/4800/1*ZBqHS6G_PdOTOyZJsw6e_w.webp)
   
+  
+  
+  
+  
+  
+   
+**Rerfence**
+-
+**Paper - [DeiT III: Revenge of the ViT](https://arxiv.org/abs/2204.07118)**
+
